@@ -30,12 +30,14 @@ text_of_first_number=input("enter the first number: ")
 text_of_second_number=input("enter the second number: ")
 
 # now in python you can't add two text string values, you need to convert the text to a number. lets do it for the first number
-first_number=float(text_of_first_number)
-# lets covert the second text string to a number
 # please note: if you try to convert a text with letters, and not a number then this will give you an error.
+first_number=float(text_of_first_number)
+
+# lets covert the second text string to a number
 second_number = float(text_of_second_number)
 
 # lets add the two numbers, then put the result into the variable named result.
+# please note: if you try to convert a text with letters, and not a number then this will give you an error.
 result = first_number + second_number
 
 print("the result")

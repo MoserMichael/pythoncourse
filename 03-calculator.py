@@ -49,6 +49,7 @@ else:
 
 # onces all the checks are finished: return to the top level indentation level (that's a feature of pythob ;-( 
 # it says that the  statement does not belong to the previous if statement.   
+# if you have a space in front of the next print statement then you get the error "unindent does not match any outer indentation level"
 print("the result:") 
 print(result)               
 
