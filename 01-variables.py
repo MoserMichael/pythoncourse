@@ -2,6 +2,9 @@
 # We need to learn the rules of a programming language for that, a programming language is what the computer can understand.
 # here we are learning the python programming language.
 
+# a programming language is much much simpler then learning a real language; it has less rules and less words in it.
+# however one has to keep the rules.
+
 # in python: everthing you put after the # is a comment; this is an explanations, the computer ignores this text
 # a comment is written for a human to read, not for the computer to do work with.   
 

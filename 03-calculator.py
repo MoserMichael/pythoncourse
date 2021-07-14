@@ -27,6 +27,7 @@ if oper == "*":
 
     # What is run if the condition is true: see that the line is indented. 
     # That's a feature of the python programming language ;-(
+    # it tells us that this statement is run only if the condition oper == "*" is true.    
     result = first_number * second_number
 else:
     if oper == "/":
@@ -45,6 +46,9 @@ else:
                 # every function call has the argument passed within ( and ) - just like with the print function
                 sys.exit(1)
 
+
+# onces all the checks are finished: return to the top level indentation level (that's a feature of pythob ;-( 
+# it says that the  statement does not belong to the previous if statement.   
 print("the result:") 
 print(result)               
 
