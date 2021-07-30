@@ -5,6 +5,16 @@ Now I am trying to prepare my notes on the subject, this is another opportunity 
 
 My plan is to teach some basics, then doing stuff with the [turtle](https://docs.python.org/3/library/turtle.html) library, and then to do some games with the [pygames](https://www.pygame.org/wiki/GettingStarted) library (no i have to learn these libraries, to begin with...)
 
+## Why should we learn how to program?
+
+First of all programming is fun; it's a really enjoyable moment, when a program finally starts to work
+
+Programming is a little bit like magic - in a sense we are creating things out of words. I think that this would also teach us about the value of words, and that their effect can be quite tangible as such.
+
+I think that programming has some bigger lessons in life: If something doesn't work with a computer than we tend to search for work around solutions; this search for work around solution can be useful in other situations, just ask this [guy with the fire extinguisher](https://www.youtube.com/watch?v=NPW3mvAN0Rc) I think that the practice of programming is teaching us for a mindset where we are more likely to look for another way of looking at the same problem.
+
+Also: if we persist with this activity long enough then we will learn that there are a lot of trade offs involved in programming: sometimes greater speed comes with larger memory usage for example; in a sense computer programming is the land of trade offs. You get that quite a lot in life, where different choices have to be considered and evaluated with regards to their cost versus their benefit.
+
 ## Environment 
 
 We are trying to use visual studio code with the microsoft python plugin.
@@ -16,7 +26,7 @@ We are trying to use visual studio code with the microsoft python plugin.
     1. in File menu: select Auto Save option, so that a checkmark appears
     2. in Code menu, select Preferences, then select settings, search for auto save, for Auto Save select afterDelay for Auto Save Delay select 1
 
-## why python?
+## Why python?
 
 I actually dislike python as a language for introducing programming, it has a very confusing syntax, at least I think that the it is confusing to a learner for the following reasons:
 
