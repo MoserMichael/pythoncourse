@@ -35,4 +35,4 @@ I actually dislike python as a language for introducing programming, it has a ve
 3. The standard library is sometimes not very consistent - like ```del map[key]``` - why no parenthesis around the arguments for del?
 
 On the other hand python wins as a scripting language because it has a lot of libraries available, and it has descent tooling, as it is the most used scripting language.
-Well, many things in the land of programming are far from ideal - like UNIX for example ('everything is a file, except for sockets, everything is a text file, except when it has a syntax, the permission thing...). On the other hand: sort of everything in programming is a kind of trade off, it's the land of trade offs.
+Well, many things in the land of programming are far from ideal - take UNIX for example ('everything is a file', except for sockets; 'everything is a text file', except when it has a syntax; the unix permission thing...). On the other hand: sort of everything in programming is a kind of trade off, it's the land of trade offs.
