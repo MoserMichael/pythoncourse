@@ -54,7 +54,9 @@ print("the result:")
 print(result)               
 
       
-
+# exercise: write a program that combines the two exercise programs of the previous lesson, by displaying a list of choices.
+# the first choice is to compute the square of the circle, the second one is to compute the square of a rectangle. 
+# run the respective programs upon doing this choise.
 
 
  

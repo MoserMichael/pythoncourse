@@ -13,14 +13,14 @@ Programming is a little bit like magic - in a sense we are creating things out o
 
 I think that programming has some bigger lessons in life: If something doesn't work with a computer than we tend to search for work around solutions; this search for work around solution can be useful in other situations, just ask this [guy with the fire extinguisher](https://www.youtube.com/watch?v=NPW3mvAN0Rc) I think that the practice of programming is teaching us for a mindset where we are more likely to look for another way of looking at the same problem.
 
-Also: if we persist with this activity long enough then we will learn that there are a lot of trade offs involved in programming: sometimes greater speed comes with larger memory usage for example; in a sense computer programming is the land of trade offs. You get that quite a lot in life, where different choices have to be considered and evaluated with regards to their cost versus their benefit.
+Also: if we persist with this activity long enough then we will learn that there are a lot of trade offs involved in programming: sometimes greater speed comes with larger memory usage for example; in a sense computer programming is the land of trade offs. You get that quite a lot in life, where different choices have to be considered and evaluated with regards to their cost versus their benefit. I think it is good get some training in the art of trade offs.
 
 ## Environment 
 
 We are trying to use visual studio code with the microsoft python plugin.
 
-1. To set it up: first download python from [here](https://www.python.org/downloads/)
-2. Download visual studio code from [here](https://code.visualstudio.com/Download)
+1. To set it up: first download python from [here](https://www.python.org/downloads/), then install it.
+2. Download visual studio code from [here](https://code.visualstudio.com/Download), then install it.
 3. In visual studio code: press 'Extensions' button on the vertical bar (lowest icon), search for Python and install the first one in the list
 4. Set autosave:
     1. in File menu: select Auto Save option, so that a checkmark appears
@@ -31,8 +31,8 @@ We are trying to use visual studio code with the microsoft python plugin.
 I actually dislike python as a language for introducing programming, it has a very confusing syntax, at least I think that the it is confusing to a learner for the following reasons:
 
 1. The indentation business is quite confusing for a start, then some lines must end with a : symbol, followed by an increase in indentation; then watch out when indentation decreases, that means you get out of the block; that one is a too subtle cue for my liking.
-2. The whole object thing - objects are already a hard thing to grasp, then why do you need to call member functions as self.foo(), and why do they have self as first argument?
+2. The whole object thing - objects are already a hard thing to grasp, then why do we need the self argument in member functions?
 3. The standard library is sometimes not very consistent - like ```del map[key]``` - why no parenthesis around the arguments for del?
 
 On the other hand python wins as a scripting language because it has a lot of libraries available, and it has descent tooling, as it is the most used scripting language.
-Well, many things in the land of programming are far from ideal - take UNIX for example ('everything is a file', except for sockets; 'everything is a text file', except when it has a syntax; the unix permission thing...). On the other hand: sort of everything in programming is a kind of trade off, it's the land of trade offs.
+Well, many things in the land of programming are far from ideal; Many arbitrary rules have their exceptions, take UNIX for example ('everything is a file', except for sockets; 'everything is a text file', except when it has a syntax; the unix permission thing...). On the other hand: sort of everything in programming is a kind of trade off, it's the land of trade offs.

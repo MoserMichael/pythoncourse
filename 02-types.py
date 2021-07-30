@@ -29,7 +29,7 @@ text_of_first_number=input("enter the first number: ")
 # read the string value of the second variable.
 text_of_second_number=input("enter the second number: ")
 
-# now in python you can't add two text string values, you need to convert the text to a number. lets do it for the first number
+# now in python you need to convert the text to a number. if you want to add it. lets do it for the first number
 # please note: if you try to convert a text with letters, and not a number then this will give you an error.
 first_number=float(text_of_first_number)
 
@@ -42,3 +42,9 @@ result = first_number + second_number
 
 print("the result")
 print(result)
+
+
+-----
+# exercise: write aprogram that asks for the length of the radius of a circle, that computes the square of the circle with given radius and displays it on the screen.
+
+# exercise: write a program that asks for the length of the two sides of a rectangle, that computes the square of the rectange, and that prints the result.
