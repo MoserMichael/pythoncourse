@@ -13,7 +13,9 @@ Programming is a little bit like magic - in a sense we are creating things out o
 
 I think that programming has some bigger lessons in life: If something doesn't work with a computer than we tend to search for work around solutions; this search for work around solution can be useful in other situations, just ask this [guy with the fire extinguisher](https://www.youtube.com/watch?v=NPW3mvAN0Rc) I think that the practice of programming is teaching us for a mindset where we are more likely to look for another way of looking at the same problem.
 
-Also: if we persist with this activity long enough then we will learn that there are a lot of trade offs involved in programming: sometimes greater speed comes with larger memory usage for example; in a sense computer programming is the land of trade offs. You get that quite a lot in life, where different choices have to be considered and evaluated with regards to their cost versus their benefit. I think it is good get some training in the art of trade offs.
+Also: if we persist with this activity long enough then we will learn that there are a lot of trade offs involved in programming: sometimes greater speed comes with larger memory usage for example; in a sense computer programming is the land of trade offs. You get that quite a lot in life, where different choices have to be considered and evaluated with regards to their cost versus their benefit. I think it is a good idea to get some training in the art of trade offs.
+
+Another aspect is that [software is eating the world](https://www.youtube.com/watch?v=UW5ktbit2s0), which is another incentive to learn about it all...
 
 ## Environment 
 
