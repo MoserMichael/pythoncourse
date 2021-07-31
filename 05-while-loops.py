@@ -17,3 +17,13 @@ while counter < 10:
 
 print("the sum of squares from one to ten is")
 print(sum_of_squares)   
+
+
+# --- 
+# exercise: write a program that prints out the multiplication table, like this.
+# 1   2   3   4   5   6 ..
+# 2   4   6   8  10  12 ..
+# 3   6   9  12  15  18 ..
+# ...
+
+
