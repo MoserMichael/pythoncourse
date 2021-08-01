@@ -44,9 +44,18 @@ numbers = [0] * 100
 # ---
 # Exercise: make a list of the numbers between 1 and 100 and print the square of each number. us a loop to make this list.
 # hint: you can either call the append function to add new elements, or make a large enough list and change the values.
-# you will get a list that looks like [1, 4, 8, 16, 32, 64, 128 ... ]
+# you will get a list that looks like [1, 4, 9, 16, 25 ]
+# remember that the first element of the list is accessed by the 0 index (colors[0], the second oen as colors[1], etc)
 # ---
 
+#---
+# exercise:
+# make a program that shows the sums of the squares between 1 and 100
+# for the first number, it shows    1
+# for the second number, it shows   5 = 1 + 4
+# for the third number, it shows   14 = 1 + 4 + 9
+# for the fourth number, it shows  30 = 1 + 4 + 9 + 16
+#---
 
 #----
 # big exercise: find the prime numbers between one and 100; 
