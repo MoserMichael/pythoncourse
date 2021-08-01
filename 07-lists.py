@@ -20,6 +20,8 @@ print(colors[2]) # this one gives the third element, with the value "blue"
 #print(colors[3]) # - in python this would give an error, you can't access the fourth element in the list, it has not been set, we got only three elements in the list.
                   # the errro is: "IndxError: list index out of range"
 
+# you can also change an elment of a list like this.
+colors[1] = "Green" # now the second element starts with a capital letter, instead of a lower case letter.
 
 # you can add another element on top of the colors in an existing list by calling the append function.
 
