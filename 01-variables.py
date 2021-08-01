@@ -33,6 +33,8 @@ b = 40
 
 # please note: it is an error to put a variable name to the right of the = sign, if you have not given it a value previously.
 
+# please note: in python you have to put all the statements that are related to start with the first column. (for a start)
+
 c = a + b
 
 # This is a function call, functions do things.
