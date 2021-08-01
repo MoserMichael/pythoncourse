@@ -73,6 +73,9 @@ numbers = [0] * 100
 #
 # This trick is called the 'Sieve of Erasthophenes' https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 # Erasthopenes was a Greek mathematician, who lived 2200 years ago.
+# In addition to being a mathematician, he was also a poet, a musician, geographer - he computed the size of the earth!, and the chief librarian of the library of Alexandria,
+# In his time, the library of Alexandria had books with all the known knowledge of the world,
+# https://en.wikipedia.org/wiki/Eratosthenes
 # ---
 
 
