@@ -70,6 +70,10 @@ numbers = [0] * 100
 # by putting a one in the array slow.
 # like for two, mark 4, mark 8, mark 16, up to 100
 # then add a second loop that goes over all numbers, and show the numbers that were not marked.
+#
+# This trick is called the 'Sieve of Erasthophenes' https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+# Erasthopenes was a Greek mathematician, who lived 2200 years ago.
 # ---
 
 
+op
