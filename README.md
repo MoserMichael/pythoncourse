@@ -42,4 +42,6 @@ Maybe the [LUA](https://en.wikipedia.org/wiki/Lua_(programming_language)  progra
 However it turns out that in LUA there are good gaming libraries, like [LOEVE 2D](https://love2d.org/). This teaches us that occasionally there are lots of alternatives in software... And LUA has it's visual studio plugin [here](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua) In this reddit discussion ["How good is Lua as a language to teach children programming?"](https://www.reddit.com/r/lua/comments/hygw6j/how_good_is_lua_as_a_language_to_teach_children/) people argue that LUA is the better choice over python.
 
 On the other hand: accessing a undefined variable in Lua is not an error, such variables get the nil value. I think the Python behavior of treating this as an error makes more sense.
-This argument can go and on, so lets stick with python.
+Also Lua likes to do implicit conversion, like converting a string to a number, when used in an arithmetic operation. I think this often results in difficult situations, so that type conversion in python makes more sense, to me.
+
+This kind of argument can go and on, so lets stick with python.
