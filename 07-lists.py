@@ -39,8 +39,17 @@ print(colors)
 # for example you can sort the list and print it out, this prints a sorted list of the colors: [ "blue", "green", "red", "yellow" ]
 print(colors.sort()) 
 
-# one thing you can do is to get a list of hundred elements with the value 0
+# one thing you can do is to make a list of hundred elements with the value 0 !4
 numbers = [0] * 100
+
+# now we can make a list of the first one hundred squares of integers
+i=0
+while i<100:
+    numbers[i]=(i+1) * (i+1)
+    i=i+1
+
+# you can print out the whole array in one print function call    
+print("square of first 100 numbers: ", numbers)
 
 
 # ---
@@ -79,4 +88,15 @@ numbers = [0] * 100
 # ---
 
 
-op
+# big thing! you can have a list of lists.
+board= [ [1,2,3], 
+         [2,4,6], 
+         [3,6,9] ]
+
+# the second element of the list is the list [2,4,6]        
+print(board[1])
+
+# from the second element - which is the list [2,4,6] - take the first element - which is [2]
+print(board[1][0])
+
+
