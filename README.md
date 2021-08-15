@@ -26,6 +26,15 @@ We are trying to use visual studio code with the microsoft python plugin.
     1. in File menu: select Auto Save option, so that a checkmark appears
     2. in Code menu, select Preferences, then select settings, search for auto save, for Auto Save select afterDelay for Auto Save Delay select 1
 
+ If you are working with a language like Hebrew, then you need the bidi module to display text
+
+ 1. pip3 install python-bidi
+ 2. in the code you would display rtl text as follows:
+ ```
+from bidi.algorithm import get_display
+print(get_display("שלום hello "))   
+```
+
 ## Which language is better for introducing programming, Python or LUA?
 
 Python as a language for introducing programming has its weak points: it has a very confusing syntax, at least I think that the it is confusing to a learner for the following reasons:
@@ -45,3 +54,11 @@ On the other hand: accessing a undefined variable in Lua is not an error, such v
 Also Lua likes to do implicit conversion, like converting a string to a number, when used in an arithmetic operation. I think this often results in difficult situations, so that type conversion in python makes more sense, to me.
 
 This kind of argument can go and on, so lets stick with python.
+ 
+## Interesting resources on the subject.
+
+1. [Felienne Hermans on teaching programming](https://www.youtube.com/watch?v=g1ib43q3uXQ)
+2. The [HN discussion](https://news.ycombinator.com/item?id=28167792) of the lecture.
+
+
+
