@@ -32,7 +32,7 @@ Python as a language for introducing programming has its weak points: it has a v
 
 1. The indentation business is quite confusing for a start, then some lines must end with a : symbol, followed by an increase in indentation; then watch out when indentation decreases, that means you get out of the block; that one is a too subtle cue for my liking.
 2. The whole object thing - objects are already a hard thing to grasp, then why do we need the self argument in member functions?
-3. Inconsistencies like ```del map[key]``` - why is del a keyword and not a function?
+3. Many features, sometimes more than one way to do things: functions can be called with positional argument, but also with keyword arguments [here](https://python.plainenglish.io/python-positional-arguments-vs-keyword-arguments-passing-variable-number-of-arguments-args-vs-8e1b0629828)
 
 On the other hand python wins as a scripting language because it has a lot of libraries available, and it has descent tooling, as it is the most used scripting language.
 Well, many things in the land of programming are far from ideal; Many arbitrary rules have their exceptions, take UNIX for example ('everything is a file', except for sockets; 'everything is a text file', except when it has a syntax; the unix permission thing...). On the other hand: sort of everything in programming is a kind of trade off, it's the land of trade offs.
