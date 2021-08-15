@@ -38,8 +38,10 @@ else:
     # every function call has the argument passed within ( and ) - just like with the print function
     sys.exit(1)
 
-print("the result:") 
-print(result)               
+
+# you can write several values in one call to print, the values can be either string constants (like "the result:") or variables
+# it can be a list of values, separated by a ,
+print("the result:", result)
 
   
 

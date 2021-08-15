@@ -5,10 +5,12 @@
 # an integer are the number that can be counted 0, 1, 2, 3, .... and all the negative numbers -1, -2, -3, -4 ....
 # the integer value to the right hand side of = is the number 13, this value is assigned to the variable a
 a = 13
+# showing the value of variable a on screen
 print(a)
 
 # a floating point number is a number with a fraction
 b=99.99
+# showing the value of variable b on screen
 print(b)
 
 
@@ -40,8 +42,8 @@ second_number = float(text_of_second_number)
 # please note: if you try to convert a text with letters, and not a number then this will give you an error.
 result = first_number + second_number
 
-print("the result")
-print(result)
+# now something new: you can show several values on screen by separating them with a comma.
+print("the result", result)
 
 
 -----

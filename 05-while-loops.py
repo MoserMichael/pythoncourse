@@ -22,7 +22,6 @@ print(sum_of_squares)
 # exercise: write a program to compute the factorial for any given number.
 # the factorial for 5 is 1 * 2 * 3 * 4 * 5
 # incidentially the number of combinations of n things is the factorial of n
-
 # here is a good video that explains the reason for this https://www.youtube.com/watch?v=elzVyTtMbiM
 # that's an example of mathematical induction: where you compute the forumula for n via concluding how to extend the case of n-1 to it.
 
@@ -31,7 +30,8 @@ print(sum_of_squares)
 # exercise: a pythagorean triple are three integer number a,b,c so that a*a = b*b + c*c.
 # An example is 1,3,10 as 1*1+3*3=10   or 4,3,25  as 4*4+3*3==25
 # now write a program that finds all pythagorean triples where the largest number is between 1 and 100
-
+# here you will need to have a loop within a loop within a loop, the first one to try out all numbers from 1 to 100, 
+# the other loops will try out the numbers between one and the current number of the outer loop.
 
 # --- 
 # exercise: write a program that prints out the multiplication table, like this.

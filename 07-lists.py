@@ -1,11 +1,5 @@
 # lets say you want to work with multiple variables of the same kind; like with a set of colors
-# you could have multiple variables
-
-color1="red"
-color2="green"
-color3="blue"
-
-# now it is a bit hard to work with that: if you want to deal with related information that you can make a list of it in python.
+# you could have mult2d to work with that: if you want to deal with related information that you can make a list of it in python.
 
 colors = [ "red", "green", "blue" ]  # this makes a list of the  three strings, the first element of the list is "red", the second element is "green", and the third one is "blue"
 
@@ -22,6 +16,17 @@ print(colors[2]) # this one gives the third element, with the value "blue"
 
 # you can also change an elment of a list like this.
 colors[1] = "Green" # now the second element starts with a capital letter, instead of a lower case letter.
+
+
+# you can show the number of elements in the list by calling the len function with the variable that holds the list
+print("number of colors in list:", len(colors))
+
+# we print all the colors as a while loop.
+i=0
+while i<len(colors):
+    print(colors[i])
+    i=i+1
+
 
 # you can add another element on top of the colors in an existing list by calling the append function.
 
@@ -81,11 +86,20 @@ print("square of first 100 numbers: ", numbers)
 # then add a second loop that goes over all numbers, and show the numbers that were not marked.
 #
 # This trick is called the 'Sieve of Erasthophenes' https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
-# Erasthopenes was a Greek mathematician, who lived 2200 years ago.
+# Erasthopenes was a Greek mathematician, who lived 2200 years ago
 # In addition to being a mathematician, he was also a poet, a musician, geographer - he computed the size of the earth!, and the chief librarian of the library of Alexandria,
 # In his time, the library of Alexandria had books with all the known knowledge of the world,
 # https://en.wikipedia.org/wiki/Eratosthenes
 # ---
+
+# exercise: lets say you have two lists of number,
+# list1=[1,2,3] this represents the number 123
+# list2=[9,9,9,8] this represents the number 9998
+# write a program to add the two numbers and print out the result.
+
+# exercise: if you are really bored: write a program to multiply the two numbers from the previous exercise.
+
+# exercise: write a program that asks the user for two strings, the program converts them into arrays of digits and then adds them (or multiplies them)
 
 
 # big thing! you can have a list of lists.

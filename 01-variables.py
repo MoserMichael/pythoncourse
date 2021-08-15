@@ -62,10 +62,10 @@ print(e)
 variable_name2 = 1234567
 
 # important rule:
-# if you try to use a variable that has not been asigned an value, then this is an error.
+# if you try to use a variable that has not been asigned an value, then this is an error in Python.
 
-# this is an error, the variable variable_name3 has never been assigned a value, so i put the next line in a comment.
-# print(variable_name3
+# The next line is an error in python, therefore i have put the line in a comment: the variable variable_name3 is used, but it has never been assigned a value before that.
+# print(variable_name3)
 
 # -----
 # exercise: write a program that computes the area of a circle with given radius 10cm and prints the answer
