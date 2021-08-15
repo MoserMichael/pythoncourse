@@ -1,9 +1,19 @@
 # lets say you want to work with multiple variables of the same kind; like with a set of colors
-# you could have mult2d to work with that: if you want to deal with related information that you can make a list of it in python.
+
+# you could have multiple variables, one for each color
+
+color1="red"
+color2="green"
+color3="blue"
+
+# now it is a bit hard to work with that: if you want to deal with related information that you can make a list of it in python.
+# we would need to have something like a list of colors, and be able to access the 1st, second or any other element at will.
+
+# welcome to python lists:
 
 colors = [ "red", "green", "blue" ]  # this makes a list of the  three strings, the first element of the list is "red", the second element is "green", and the third one is "blue"
 
-# how you can access he elements of the list conveniently like this:
+# Now you can access the elements of the list conveniently like this:
 
 print(colors[0]) # color[0] gives you he first element, which is the string "red". the  index of the first element is 0 that's a bit confusing,
                  # but it is possible to get used to that.  note that you have the index of the accessed element surrounded by [ and ] characters.
