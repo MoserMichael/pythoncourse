@@ -13,7 +13,7 @@ Programming is a little bit like magic - in a sense we are creating things out o
 
 Also: if we persist with this activity long enough then we will learn that there are a lot of trade offs involved in programming: sometimes greater speed comes with larger memory usage for example; in a sense computer programming is the land of trade offs. You get that quite a lot in life, where different choices have to be considered and evaluated with regards to their cost versus their benefit. I think it is a good idea to get some training in the art of trade offs.
 
-Another aspect is that [software is eating the world](https://www.youtube.com/watch?v=UW5ktbit2s0), which is another incentive to learn about it all...
+Another aspect is that [software is eating the world](https://www.youtube.com/watch?v=UW5ktbit2s0), which is another incentive to learn about it all... [This article](https://daneshyari.com/article/preview/4941896.pdf) says that understanding how programs are written helps us understand the rules of how digitial systems work and assumptions followed while they were created; therefore they argue that understanding all this is required to 'fully participate in the discourse of our digital life' - so it would be somehow similar to civics... (" Metaphors of code—Structuring and broadening the discussion on teaching children to code" by Tomi Dufvaa and Mikko Dufva)
 
 ## Environment 
 
