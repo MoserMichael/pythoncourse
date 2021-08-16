@@ -55,10 +55,15 @@ Also Lua likes to do implicit conversion, like converting a string to a number, 
 
 This kind of argument can go and on, so lets stick with python.
  
-## Interesting resources on the subject.
+## Learning about teaching
 
 1. [Felienne Hermans on teaching programming](https://www.youtube.com/watch?v=g1ib43q3uXQ)
-2. The [HN discussion](https://news.ycombinator.com/item?id=28167792) of the lecture.
+    * says there are two camps: "kid should figure out on their own" vs "teach them how to do it with examples"
+    * "figure out on their own" comes from Logo by Seymour Papert - and he was inspired by Jean Pagets constructivism; it says that kid learn by participation & problem solving.
+    * says that kids learn better if they are exposed to example solutions first; having to figure it all out is to big a cognitive strain. Study shows: control group that got example solutions in math did better than the control group that had to figure it all out on their own; also they did better on additional material.
+    * another trick that helps: reading out the programming statement aloud! 
+    * also says that quizzes are good for acquiring new learning material.
+2. The [HN discussion](https://news.ycombinator.com/item?id=28167792) of the lecture. Here is a very motivational comment by mbrodersen " I have had success teaching programming to beginners by simply letting them program simple text based adventure games. I show them the minimum to get started (print, read, if) and they run with it, creating their own little adventure games. Then they start asking question about “how do I keep track of health?” and I introduce variables etc. But only when they have identified a gap in their knowledge, and have an interest in filling that gap. I had a class room full of kids excitedly programming away even after the class was done. And the quicker students started teaching other kids. It was a wonderful experience." 3. There is probably some golden middle ground that works: I think the course should suggest both approaches, and follow through with what is working; I can do that because I don't have a big classroom ;-)
 
 
 
