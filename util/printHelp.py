@@ -6,10 +6,4 @@ from bidi.algorithm import get_display
 # the workaround is to put bidi text into separate string variables.
 
 def printb(*args):
-    def adjustStr(arg):
-        if type(arg) == "<class 'str'>":
-            return get_display(arg)
-        return str(arg)
-
-    print( get_display( ' '.join(map(adjustStr, args)) ) )
-    
+    print( get_display( ' '.join(map(str, args)) ) )
