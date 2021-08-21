@@ -10,6 +10,13 @@ heb2="שלום world"
 util.printb( heb, 42 )
 util.printb( heb2, 42 )
 
+heb3="""הרבה many
+שורות lines
+של of
+תוכנית code"""
+
+util.printb(heb3)
+
 #print(heb)
 #print(heb2)
 
